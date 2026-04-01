@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: "Inter", system-ui, sans-serif;
+}
+
+body {
+  @apply bg-gray-950 text-gray-100 antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
